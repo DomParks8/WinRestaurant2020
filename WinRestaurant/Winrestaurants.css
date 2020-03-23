@@ -1,0 +1,104 @@
+h1,
+h2,
+th {
+	font-weight: bolder;
+	color: white;
+}
+
+h1{
+	font-family: 'Tangerine', serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+}
+
+th,
+h2{
+	text-decoration: underline;
+}
+
+td {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.link{
+	height: 40px;
+	width: 40px;
+}
+
+.money{
+	color: green;
+	background-color: white;
+}
+
+body{
+	background-image: url(https://images.unsplash.com/photo-1560015534-cee980ba7e13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+p,
+td{
+	color: white
+}
+
+table{
+	background-image: url(https://images.unsplash.com/photo-1549007953-2f2dc0b24019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80);
+	padding: 0.5;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+p{
+	background: rgb(0,0,0);
+	opacity:0.8;
+	text-align: center;
+	font-family: 'Inconsolata', serif;
+        font-size: 20px;
+}
+
+#page2{
+	background-image: url(https://s23209.pcdn.co/wp-content/uploads/2019/02/Baked-Mac-and-CheeseIMG_8527.jpg);
+}
+
+#page3{
+	background-image: url(https://images.unsplash.com/photo-1572376832515-4a8aac0f63a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=666&q=80);
+	background-repeat: space;
+	background-size: cover;
+}
+
+#page4{
+	background-image: url(https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	background-size: cover;
+	background-repeat: space;
+	margin: 125px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:100px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+/*Change the link color*/
+li a:hover{
+	background-color: #555;
+	color:red;
+}
+
+#footer{
+	bottom: 0;
+}
+ 
