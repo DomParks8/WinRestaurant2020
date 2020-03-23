@@ -41,13 +41,22 @@ body{
 
 p,
 td{
-	color: white
+	color: white;
+	margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
 }
 
 table{
-	background-image: url(https://images.unsplash.com/photo-1549007953-2f2dc0b24019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80);
+	/*background-image: url(https://images.unsplash.com/photo-1549007953-2f2dc0b24019?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80);*/
 	padding: 0.5;
 	text-shadow: 4px 4px 4px #aaa;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*setting alpha = 0.75*/ 
+  	background: rgba(0, 0, 0, 0.5);
 }
 
 p{
@@ -193,3 +202,7 @@ li a:hover{
     text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
   }
 
+table .table{ 
+                /*setting alpha = 0.1*/ 
+                background: rgba(0, 151, 19, 0.75);
+}
